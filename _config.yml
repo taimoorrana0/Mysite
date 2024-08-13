@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My website
+title: Tech pulse
 
 # Your name to show in the footer
-author: Some Person
+author: Taimoor
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,10 +21,8 @@ author: Some Person
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  
+  Author's home: ""
 
 ################
 # --- Logo --- #
@@ -50,14 +48,14 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "ranatamoor067@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
+ # facebook: deanattali
+ # github: daattali
   twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+ # patreon: DeanAttali
+  youtube: ""
+  whatsapp: "+92-323-7606011"
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -97,10 +95,10 @@ share-links-active:
   facebook: true
   linkedin: true
   vk: false
-
+  whatsapp: true
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -150,7 +148,7 @@ footer-hover-col: "#0085A1"
 # instead of colour
 
 #navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
+footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
@@ -198,7 +196,7 @@ footer-hover-col: "#0085A1"
 #disqus: ""
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
-#fb_comment_id: ""
+fb_comment_id: "1164587498138761"
 
 # To use CommentBox, sign up for a Project ID on https://commentbox.io
 #commentbox: "" # Project ID, e.g. "5694267682979840-proj"
