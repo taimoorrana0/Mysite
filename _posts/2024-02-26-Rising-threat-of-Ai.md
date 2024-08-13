@@ -70,8 +70,3 @@ The rise of AI presents both exciting opportunities and significant challenges. 
 
 ---
 
-**Share this post:**
-
-- [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }})
-- [Twitter](https://twitter.com/intent/tweet?url={{ page.url | absolute_url | url_encode }}&text=The%20Rising%20Threat%20of%20AI:%20What%20You%20Need%20to%20Know)
-- [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title=The%20Rising%20Threat%20of%20AI&summary=Artificial%20Intelligence%20(AI)%20has%20rapidly%20evolved%20over%20the%20past%20decade.%20While%20AI%20offers%20numerous%20benefits,%20it%20also%20poses%20significant%20risks.)
