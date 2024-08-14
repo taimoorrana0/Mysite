@@ -1,6 +1,6 @@
 ---
 title: "From Dreams to Reality: What to Expect in The Future of Cloud Computing"
-subtitle: "The Future of Cloud Computing: 5 Innovations That Will Change Everything!"
+
 cover-img: /assets/img/virtual.jpg
 thumbnail-img: /assets/img/web.jpg
 share-img: /assets/img/web.jpg
