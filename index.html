@@ -1,7 +1,8 @@
 ---
 layout: home
-title: Welcome 
+title: Welcome
 subtitle: Stay Ahead with Tech Pulse - Your Gateway to Innovation!
+cover-img: /assets/img/welcome.jpeg
 ---
 
 <!DOCTYPE html>
@@ -11,6 +12,13 @@ subtitle: Stay Ahead with Tech Pulse - Your Gateway to Innovation!
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <style>
+        /* Ensure the body fills the viewport */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
         /* Set up the container to position the background */
         .carousel-container {
             position: relative;
@@ -25,7 +33,7 @@ subtitle: Stay Ahead with Tech Pulse - Your Gateway to Innovation!
             width: 300%;
             height: 100%;
             display: flex;
-            animation: slide 12s infinite;
+            animation: slide 15s infinite;
         }
 
         .carousel-slide div {
@@ -35,9 +43,9 @@ subtitle: Stay Ahead with Tech Pulse - Your Gateway to Innovation!
             background-repeat: no-repeat;
         }
 
-        .carousel-slide .img1 { background-image: url('/assets/img/web.jpg'); }
-        .carousel-slide .img2 { background-image: url('/assets/img/welcome.jpeg'); }
-        .carousel-slide .img3 { background-image: url('/assets/img/virtual.jpg'); }
+        .carousel-slide .img1 { background-image: url('/assets/img/image1.jpg'); }
+        .carousel-slide .img2 { background-image: url('/assets/img/image2.jpg'); }
+        .carousel-slide .img3 { background-image: url('/assets/img/image3.jpg'); }
 
         /* Overlay text styling */
         .overlay {
@@ -47,10 +55,12 @@ subtitle: Stay Ahead with Tech Pulse - Your Gateway to Innovation!
             transform: translate(-50%, -50%);
             color: white;
             text-align: center;
-            padding: 10px;
+            padding: 20px;
             background: rgba(0, 0, 0, 0.5);
             border-radius: 10px;
             max-width: 90%;
+            box-sizing: border-box;
+            z-index: 1; /* Ensures text is above the carousel */
         }
 
         .overlay h1 {
@@ -60,7 +70,7 @@ subtitle: Stay Ahead with Tech Pulse - Your Gateway to Innovation!
         }
 
         .overlay p {
-            font-size: 1.2em;
+            font-size: 1.5em;
             margin-top: 10px;
             line-height: 1.4;
         }
@@ -82,13 +92,13 @@ subtitle: Stay Ahead with Tech Pulse - Your Gateway to Innovation!
             }
 
             .overlay p {
-                font-size: 1em;
+                font-size: 1.2em;
             }
         }
 
         @media (max-width: 480px) {
             .overlay {
-                padding: 5px;
+                padding: 10px;
             }
 
             .overlay h1 {
@@ -96,7 +106,7 @@ subtitle: Stay Ahead with Tech Pulse - Your Gateway to Innovation!
             }
 
             .overlay p {
-                font-size: 0.9em;
+                font-size: 1em;
             }
         }
     </style>
