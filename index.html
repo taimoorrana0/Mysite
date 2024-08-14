@@ -14,6 +14,7 @@ subtitle: Stay Ahead with Tech Pulse - Your Gateway to Innovation!
         /* Set up the container to position the background */
         .carousel-container {
             position: relative;
+            width: 100%;
             height: 100vh;
             overflow: hidden;
         }
@@ -31,10 +32,11 @@ subtitle: Stay Ahead with Tech Pulse - Your Gateway to Innovation!
             flex: 1 0 100%;
             background-size: cover;
             background-position: center;
+            background-repeat: no-repeat;
         }
 
-        .carousel-slide .img1 { background-image: url('/assets/img/welcome.jpeg'); }
-        .carousel-slide .img2 { background-image: url('/assets/img/web.jpg'); }
+        .carousel-slide .img1 { background-image: url('/assets/img/web.jpg'); }
+        .carousel-slide .img2 { background-image: url('/assets/img/welcome.jpeg'); }
         .carousel-slide .img3 { background-image: url('/assets/img/virtual.jpg'); }
 
         /* Overlay text styling */
@@ -45,19 +47,22 @@ subtitle: Stay Ahead with Tech Pulse - Your Gateway to Innovation!
             transform: translate(-50%, -50%);
             color: white;
             text-align: center;
-            padding: 20px;
+            padding: 10px;
             background: rgba(0, 0, 0, 0.5);
             border-radius: 10px;
+            max-width: 90%;
         }
 
         .overlay h1 {
-            font-size: 3em;
+            font-size: 2.5em;
             margin: 0;
+            line-height: 1.2;
         }
 
         .overlay p {
-            font-size: 1.5em;
+            font-size: 1.2em;
             margin-top: 10px;
+            line-height: 1.4;
         }
 
         /* Keyframes for sliding effect */
@@ -68,6 +73,31 @@ subtitle: Stay Ahead with Tech Pulse - Your Gateway to Innovation!
             71% { transform: translateX(-100%); }
             76% { transform: translateX(-200%); }
             100% { transform: translateX(-200%); }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .overlay h1 {
+                font-size: 2em;
+            }
+
+            .overlay p {
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .overlay {
+                padding: 5px;
+            }
+
+            .overlay h1 {
+                font-size: 1.5em;
+            }
+
+            .overlay p {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
