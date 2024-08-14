@@ -1,6 +1,88 @@
 ---
 layout: home
-title: welcome 
-subtitle: Stay Ahead with Tech Pulse Your Gateway to Innovation!
-cover-img: /assets/img/welcome.jpeg
+title: Welcome 
+subtitle: Stay Ahead with Tech Pulse - Your Gateway to Innovation!
 ---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <style>
+        /* Set up the container to position the background */
+        .carousel-container {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Carousel slides with background images */
+        .carousel-slide {
+            position: absolute;
+            width: 300%;
+            height: 100%;
+            display: flex;
+            animation: slide 12s infinite;
+        }
+
+        .carousel-slide div {
+            flex: 1 0 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .carousel-slide .img1 { background-image: url('/assets/img/welcome.jpeg'); }
+        .carousel-slide .img2 { background-image: url('/assets/img/web.jpg'); }
+        .carousel-slide .img3 { background-image: url('/assets/img/virtual.jpg'); }
+
+        /* Overlay text styling */
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .overlay h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .overlay p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        /* Keyframes for sliding effect */
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            33% { transform: translateX(0); }
+            38% { transform: translateX(-100%); }
+            71% { transform: translateX(-100%); }
+            76% { transform: translateX(-200%); }
+            100% { transform: translateX(-200%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <div class="img1"></div>
+            <div class="img2"></div>
+            <div class="img3"></div>
+        </div>
+
+        <div class="overlay">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.subtitle }}</p>
+        </div>
+    </div>
+</body>
+</html>
