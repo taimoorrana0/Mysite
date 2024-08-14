@@ -8,6 +8,7 @@
 ############################
 # --- Required options --- #
 ############################
+url: "https://techpulsesite.netlify.app/"
 
 # Name of website
 title: Tech pulse
@@ -24,7 +25,7 @@ navbar-links:
   Home: "index.html"
   Contact: "Contact"
   
-  Author's home: ""
+  Author's home: "https://authorhome.netlify.app/"
 
 ################
 # --- Logo --- #
@@ -51,12 +52,12 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "ranatamoor067@gmail.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+    # remove this line if you don't want to show an RSS link at the bottom
  # facebook: deanattali
  # github: daattali
-  twitter: daattali
+  twitter: "https://x.com/ranatamoor067?t=qo2PHASiTXL42lsTJo4HYg&s=09"
  # patreon: DeanAttali
-  youtube: ""
+  
   whatsapp: "+92-323-7606011"
 #  medium: yourname
 #  reddit: yourname
@@ -85,7 +86,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+#rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
@@ -103,7 +104,7 @@ share-links-active:
 
 
 # Add the website title to the title of every page
-title-on-all-pages: false 
+title-on-all-pages: true 
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
