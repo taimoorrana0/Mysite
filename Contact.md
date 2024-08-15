@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Contact
 ---
 
 If you would like to reach me by email please fill out and submit the form below. I am usually able to reply to your email within a few hours.
