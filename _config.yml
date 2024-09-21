@@ -25,7 +25,7 @@ navbar-links:
   Home: "index.html"
   Contact: "Contact"
   
-  Author's home: "https://authorhome.netlify.app/"
+  #Author's home: "https://authorhome.netlify.app/"
 
 ################
 # --- Logo --- #
@@ -202,7 +202,7 @@ footer-img: "/assets/img/bgimage.png"
 #fb_comment_id: "3080532395444747"
 
 # To use CommentBox, sign up for a Project ID on https://commentbox.io
-commentbox: "5679322656407552-proj" # Project ID, e.g. "5694267682979840-proj"
+#commentbox: "5679322656407552-proj" # Project ID, e.g. "5694267682979840-proj"
 
 # To use Utterances comments: (0) uncomment the following section, (1) fill in
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
